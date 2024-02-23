@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './assets/components/Navbar'
 import Button from './assets/components/Button'
+import Hero from './assets/Hero'
 
 function App() {
   
@@ -31,6 +32,8 @@ function App() {
       <Button key={ind}>{btn.title}</Button>
     ))
    }
+   <Hero/>
+  
     </>
   )
 }
